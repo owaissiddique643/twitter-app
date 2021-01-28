@@ -1,5 +1,5 @@
 // const url = "http://localhost:5000";
-const url='https://main-123.herokuapp.com/';
+const url='https://main-123.herokuapp.com';
 // const { default: axios } = require("axios");
 var socket = io(url);
 
