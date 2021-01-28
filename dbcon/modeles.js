@@ -9,7 +9,7 @@ mongoose.connection.on('connected', function () {
 
 mongoose.connection.on('disconnected', function () {
     console.log("Mongoose is disconnected");
-    process.exit(1);
+    
 });
 
 mongoose.connection.on('error', function (err) {//any error
